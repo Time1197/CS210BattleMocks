@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cs210battlemocks.Battle1v3Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cs210battlemocks.Battle1v4Controller">
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
@@ -37,6 +37,12 @@
             </VBox>
             <Pane layoutX="527.0" layoutY="244.0" prefHeight="158.0" prefWidth="95.0" style="-fx-background-color: maroon;" AnchorPane.bottomAnchor="45.0" AnchorPane.rightAnchor="178.0" />
             <VBox layoutX="524.0" layoutY="188.0" prefHeight="56.0" prefWidth="100.0" AnchorPane.bottomAnchor="203.0" AnchorPane.rightAnchor="176.0">
+               <children>
+                  <ProgressBar prefWidth="200.0" progress="1.0" style="-fx-accent: red;" />
+               </children>
+            </VBox>
+            <Pane layoutX="404.0" layoutY="173.0" prefHeight="158.0" prefWidth="95.0" style="-fx-background-color: purple;" AnchorPane.bottomAnchor="116.0" AnchorPane.rightAnchor="301.0" />
+            <VBox layoutX="401.0" layoutY="117.0" prefHeight="56.0" prefWidth="100.0" AnchorPane.bottomAnchor="274.0" AnchorPane.rightAnchor="299.0">
                <children>
                   <ProgressBar prefWidth="200.0" progress="1.0" style="-fx-accent: red;" />
                </children>
