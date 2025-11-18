@@ -10,7 +10,7 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("battle-mock1v4.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("battle-mock2v4.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("BattleMock1v1");
         stage.setScene(scene);
