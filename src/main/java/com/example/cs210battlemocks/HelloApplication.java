@@ -12,7 +12,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("battle-mock2v4.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("BattleMock1v1");
+        stage.setTitle("BattleMock2v4");
         stage.setScene(scene);
         stage.show();
     }
