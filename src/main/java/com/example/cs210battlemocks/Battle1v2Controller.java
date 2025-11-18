@@ -3,7 +3,7 @@ package com.example.cs210battlemocks;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class Battle1v2Controller {
     @FXML
     private Label welcomeText;
 
